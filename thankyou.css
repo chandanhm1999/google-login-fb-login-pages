@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61fbe1d2-984b-45c7-b49a-9b9717d41abc/d7a56l5-3ee1faa3-6358-40bd-bb5a-9ac27112a73d.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxZmJlMWQyLTk4NGItNDVjNy1iNDlhLTliOTcxN2Q0MWFiY1wvZDdhNTZsNS0zZWUxZmFhMy02MzU4LTQwYmQtYmI1YS05YWMyNzExMmE3M2QuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.cOrLKmCNrGdC_0RKza4HoaAZe1VtbByywAvzzeVzgUs");
+    color: #fff;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #d5d2d2;
+    border-radius: 10px;
+    width: 750px;
+    padding: 25px;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.image {
+    width: 100%;;
+    height: 100px;
+    padding: 10px 50px 10px;
+}
+
+.mail {
+    font-size: 30px;
+    font-weight: bold;
+}

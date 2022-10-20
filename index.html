@@ -1,20 +1,70 @@
 <!DOCTYPE html>
-<html>
-    <meta charset="utr-8">
-    <title>Thank you for Joining</title>
-    <link rel="icon" href="./pics/google-icons.png">
-    <link rel="stylesheet" href="index.css">
-    <link rel="icon" href="./logo.png">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Create Your Google Account</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Material Icons' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css?family=Jost:wght@300&display=swap" rel="stylesheet">
+        <link rel="icon" href="./pics/google-icons.png">
+        <link rel="stylesheet" href="style.css">
+    </head>
     <body>
         <div class="main">
-            <div class="name">
-                <label>NAME: Chandan HM</label>
+            <form class="" action="thankyou.html">
+                <div class="head">
+                    <img src="./pics/google.png" alt="" class="logo">
+                    <h1>Create your Google Account</h1>
+                </div>
+                <div class="name">
+                    <input type="name" name="" value="" required>
+                    <label>First name</label>
+                </div>
+                <div class="name">
+                    <input type="name" name="" value="" required>
+                    <label>Last name</label>
+                </div>
+                <div class="user-name">
+                    <input type="username" name="" value="" required>
+                    <label>Username</label>
+                    <span class="gmail">@gmail.com</span>
+                </div>
+                <a href="" class="line1">You can use letters, numbers & periods</a>
+                <a href="" class="line2">Use my current email address instead</a>
+                <div class="pass">
+                    <input type="password" class="password" id="pass1" required>
+                    <label>Password</label>
+                </div>
+                <div class="pass">
+                    <input type="password" class="password" id="pass2" required>
+                    <label>Confirm</label>
+                </div>
+                <div class="iconeye">
+                    <img src="./pics/eyehide.png" id="eye" onclick="show();">
+                </div>
+                <a href="" class="line3">Use 8 more characters with a amix of letters, numbers & symbols</a>
+                <a href="" class="line4">Sign in instead</a>
+                <input type="submit" name="" value="Next">
+            </form>
+            <div class="side-image">
+                <img src="./pics/side-logo2.png" class="side-logo">
             </div>
-            <div class="image">
-                <img src="https://lh3.googleusercontent.com/a/ALm5wu2eIL9nGK0m-QbaFH_8DKwcHYBSsQPmga3pIYmO9Q=s96-c-rg-br100" class="side-logo">
-            </div>
-            <div class="mail">
-                <label>Email: chandanchanduhm4@gmail.com</label>
         </div>
+        <script type="text/javascript">
+            function show(){
+                var password= document.getElementById('pass1');
+                confirm= document.getElementById('pass2');
+                image= document.getElementById('eye');
+                if (password.type==="password",confirm.type==="password") {
+                    password.type="text";
+                    confirm.type="text";
+                    image.setAttribute('src','./pics/eyeshow.png')
+                }else if (password.type==="text",confirm.type==="text") {
+                    password.type="password";
+                    confirm.type="password";
+                    image.setAttribute('src','./pics/eyehide.png')
+                }
+            }
+        </script>        
     </body>
-</html>
+</html>    
